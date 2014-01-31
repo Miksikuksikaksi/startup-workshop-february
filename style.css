@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+footer, .push {
+	height: 155px; /* '.push' must be the same height as 'footer' */
+}
+/* #### GENERAL #### */
+body {
+	background: url('images/ticks.jpg');
+	font-family: 'EB Garamond', serif;
+	font-size: 16px;
+}
+.inner-wrapper {
+	width: 80%;
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 2em 0;
+}
+
+/* #### FONTS #### */
+h2 {
+	font-family: 'Clicker Script', cursive;
+	color: white;
+	font-size: 6.1em;
+	line-height: 1em;
+}
+p {
+	font-size: 1.2em;
+	color: #dde5f8;
+}
+#top-nav { 
+	width: 100%;
+	height: 3em;
+	background: #252c3c;
+}
+#top-nav a {
+	color: white;
+	text-decoration: none;
+}
+#top-nav ul {
+	padding: 1em 0 0 0;
+	width: 80%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+#top-nav ul li {
+	list-style: none;
+	display: inline;
+	padding-right: 2em;
+}
+#top-nav a span {
+	display: none;
+}
+
+/* #### HEADER #### */
+
+/* #### SECTION #### */
+
+/* #### ARTICLE #### */
+article {
+	margin-top: 2em;
+}
+article p {
+	margin-top: 2em;
+}
+/* #### ASIDE #### */
+
+/* #### FOOTER #### */
+footer {
+	background: #252c3c;
+	padding-top: 1em;
+}
+.footer-wrapper {
+	width: 80%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+footer p {
+	color: white;
+	font-style: oblique;
+}
+
+/* #### IMG & FLARE #### */
+figure {
+	border: 20px solid white;
+	margin: 1em 0;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+/* #### MEDIA QUERIES #### */
+@media only screen and (max-width : 640px) {
+	#top-nav { 
+	width: 100%;
+	background: #252c3c;
+	}
+#top-nav ul {
+	width: 100%;
+	background: #252c3c;
+	margin: 0 auto;
+	}
+#top-nav ul li {
+	list-style: none;
+	display: block;
+	padding-right: 2em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border-bottom: 1px solid white;
+	width: 100%;
+	}
+#top-nav a {
+	color: white;
+	text-decoration: none;
+	padding-left: 10%;
+	}
+#top-nav a span {
+	display: inline;
+	padding-left: 2em;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 2.5em;
+}
+.inner-wrapper {
+	padding-top: 5em;
+}
+}
